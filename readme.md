@@ -13,10 +13,10 @@ download and used it!
 > <http://www.keysight.com/main/editorial.jspx?cc=CN&lc=chi&ckey=1189308&nid=-34952.0.00&id=1189308>
 > <http://www.keysight.com/upload/cmc_upload/All/usbtmc.htm>
 
-## pyusb
+> pyusb
 >  <http://www.keysight.com/main/editorial.jspx?cc=CN&lc=chi&ckey=1189290&nid=-34952.0.00&id=1189290&cmpid=20586>
 
-## python usbtmc
+> python usbtmc
 > <https://github.com/python-ivi/python-usbtmc>
 
 
