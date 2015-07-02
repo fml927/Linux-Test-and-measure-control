@@ -30,6 +30,7 @@
 #include <asm/uaccess.h>
 #include <linux/wait.h>
 #include <linux/completion.h>
+#include <linux/slab.h>
 #include "usbtmc.h"
 
 static struct usb_device_id usbtmc_devices[] = {
@@ -1492,7 +1493,7 @@ static struct file_operations fops = {
 	.write=usbtmc_write,
 	.open=usbtmc_open,
 	.release=usbtmc_release,
-	.ioctl=usbtmc_ioctl,
+	.compat_ioctl=usbtmc_ioctl, //FML
 	.llseek=usbtmc_llseek,
 };
 
